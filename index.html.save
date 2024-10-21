@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музыка Vierbin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        .music-player {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Музыка Vierbin</h1>
+    <p>Добро пожаловать на мой сайт с музыкой!</p>
+    <div class="music-player">
+        <audio controls>
+            <source src="music/my-track.mp3" type="audio/mpeg">
+            Ваш браузер не поддерживает воспроизведение музыки.
+        </audio>
+    </div>
+</body>
+</html>
